@@ -1,0 +1,41 @@
+POST http://localhost:8080/transacao
+Content-Type: application/json
+
+{
+    "valor": -4123.45,
+    "dataHora": "2024-04-28T15:00:00"
+}
+
+
+
+DELETE http://localhost:8080/transacao
+
+
+
+GET http://localhost:8080/estatistica
+
+
+
+POST http://localhost:8080/transacao/periodo
+Content-Type: application/json
+
+{
+    "dataInicial": "2024-04-28T14:00:00",
+    "dataFinal": "2024-04-28T16:00:00"
+}
+
+
+
+GET http://localhost:8080/transacao/ultima
+
+
+
+DELETE http://localhost:8080/transacao/periodo
+Content-Type: application/json
+
+{
+    "dataInicial": "2024-04-28T14:00:00",
+    "dataFinal": "2024-04-28T16:00:00"
+}
+
+
